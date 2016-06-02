@@ -1,0 +1,286 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head id="ctl00_ctl00_Head1"><meta charset="utf-8" />
+
+    <!--    This overrides the settings for compatability mode and says to use the current version of IE.
+    In IE, Tools > Compatability View Settings, the Display intranet sites in Compatability View
+    is turned on by default.  This causes problems because some of the responsive menus need features
+    only available in version 8 and above.-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>
+	Job Posting
+</title><link href="Styles.css" type="text/css" rel="stylesheet" /><link href="StyleFlashuser.css" type="text/css" rel="stylesheet" />
+    <link href="StyleSheetMSC.css" type="text/css" rel="stylesheet" />
+    
+
+    <script type="text/javascript" src='/hrisjp/Scripts/jquery-1.11.1.min.js'></script> 
+    <script type="text/javascript" src='/hrisjp/Scripts/Flashuser.js'></script> 
+    </head>
+<body>
+ <form method="post" action="./JobsList.aspx?BU=MSC&amp;PT=E" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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dGlvbiBUaXRsZSBmb3IgbW9yZSBpbmZvcm1hdGlvbiBhYm91dCB0aGUgcG9zaXRpb24uZGQCCQ8WAh8CBY0dDQo8dGFibGUgc3R5bGU9IndpZHRoOjEwMCU7IG1heC13aWR0aDoxMjAwcHg7IiBjbGFzcz0iVEZ0YWJsZSI+DQo8dHI+PHRoPkNhdGVnb3J5PC90aD48dGg+UG9zaXRpb24gVGl0bGU8L3RoPjx0aD5Qb3N0aW5nIzwvdGg+PHRoPk9wZW5pbmdzPC90aD48dGg+UmVnL1RlbXA8L3RoPjx0aD5Db21wYW55PC90aD48dGg+UG9zdGVkIERhdGU8L3RoPjx0aD5DbG9zZXMgT248L3RoPjwvdHI+DQo8dHIgc3R5bGU9InRleHQtYWxpZ246Y2VudGVyIj4NCiA8dGQ+QWRtaW5pc3RyYXRpdmUgU3VwcG9ydCA8L3RkPg0KIDx0ZD48YSBocmVmPSdKb2JEZXRhaWwuYXNweD9CVT1NU0MmYW1wO0lEPTI3NzIyJmFtcDtQVD1FJz5TZWNyZXRhcnk8L2E+IDwvdGQ+DQogPHRkPjI3NzIyIDwvdGQ+DQogPHRkPjEgPC90ZD4NCiA8dGQ+UmVndWxhciA8L3RkPg0KIDx0ZD5NaXNzaW9uIFN1cHBvcnQgQWxsaWFuY2UsIExMQyA8L3RkPg0KIDx0ZD4wNS8zMS8yMDE2IDwvdGQ+DQogPHRkPjA2LzAzLzIwMTYgPC90ZD4NCjwvdHI+DQo8dHIgc3R5bGU9InRleHQtYWxpZ246Y2VudGVyIj4NCiA8dGQ+UHJvZmVzc2lvbmFsIDwvdGQ+DQogPHRkPjxhIGhyZWY9J0pvYkRldGFpbC5hc3B4P0JVPU1TQyZhbXA7SUQ9Mjc5NjkmYW1wO1BUPUUnPkFjY291bnRhbnQ8L2E+IDwvdGQ+DQogPHRkPjI3OTY5IDwvdGQ+DQogPHRkPjEgPC90ZD4NCiA8dGQ+UmVndWxhciA8L3RkPg0KIDx0ZD5NaXNzaW9uIFN1cHBvcnQgQWxsaWFuY2UsIExMQyA8L3RkPg0KIDx0ZD4wNS8zMS8yMDE2IDwvdGQ+DQogPHRkPjA2LzAxLzIwMTYgPC90ZD4NCjwvdHI+DQo8dHIgc3R5bGU9InRleHQtYWxpZ246Y2VudGVyIj4NCiA8dGQ+UHJvZmVzc2lvbmFsIDwvdGQ+DQogPHRkPjxhIGhyZWY9J0pvYkRldGFpbC5hc3B4P0JVPU1TQyZhbXA7SUQ9Mjc0MDQmYW1wO1BUPUUnPkNvbnRyYWN0IEFkbWluPC9hPiA8L3RkPg0KIDx0ZD4yNzQwNCA8L3RkPg0KIDx0ZD4xIDwvdGQ+DQogPHRkPlJlZ3VsYXIgPC90ZD4NCiA8dGQ+TWlzc2lvbiBTdXBwb3J0IEFsbGlhbmNlLCBMTEMgPC90ZD4NCiA8dGQ+MDYvMDEvMjAxNiA8L3RkPg0KIDx0ZD4wNi8wMy8yMDE2IDwvdGQ+DQo8L3RyPg0KPHRyIHN0eWxlPSJ0ZXh0LWFsaWduOmNlbnRlciI+DQogPHRkPlByb2Zlc3Npb25hbCA8L3RkPg0KIDx0ZD48YSBocmVmPSdKb2JEZXRhaWwuYXNweD9CVT1NU0MmYW1wO0lEPTI3NTI4JmFtcDtQVD1FJz5FbGVjdHJpY2FsIEVuZ2luZWVyPC9hPiA8L3RkPg0KIDx0ZD4yNzUyOCA8L3RkPg0KIDx0ZD4xIDwvdGQ+DQogPHRkPlJlZ3VsYXIgPC90ZD4NCiA8dGQ+TWlzc2lvbiBTdXBwb3J0IEFsbGlhbmNlLCBMTEMgPC90ZD4NCiA8dGQ+MDUvMjAvMjAxNiA8L3RkPg0KIDx0ZD4wNi8wMy8yMDE2IDwvdGQ+DQo8L3RyPg0KPHRyIHN0eWxlPSJ0ZXh0LWFsaWduOmNlbnRlciI+DQogPHRkPlByb2Zlc3Npb25hbCA8L3RkPg0KIDx0ZD48YSBocmVmPSdKb2JEZXRhaWwuYXNweD9CVT1NU0MmYW1wO0lEPTI4MDQxJmFtcDtQVD1FJz5SZWNvcmRzIE1hbmFnZW1lbnQgU3BlY2lhbGlzdDwvYT4gPC90ZD4NCiA8dGQ+MjgwNDEgPC90ZD4NCiA8dGQ+MSA8L3RkPg0KIDx0ZD5SZWd1bGFyIDwvdGQ+DQogPHRkPk1pc3Npb24gU3VwcG9ydCBBbGxpYW5jZSwgTExDIDwvdGQ+DQogPHRkPjA2LzAxLzIwMTYgPC90ZD4NCiA8dGQ+MDYvMDUvMjAxNiA8L3RkPg0KPC90cj4NCjx0ciBzdHlsZT0idGV4dC1hbGlnbjpjZW50ZXIiPg0KIDx0ZD5Qcm9mZXNzaW9uYWwgPC90ZD4NCiA8dGQ+PGEgaHJlZj0nSm9iRGV0YWlsLmFzcHg/QlU9TVNDJmFtcDtJRD0yNzkzMSZhbXA7UFQ9RSc+VHJhaW5pbmcgU3BlY2lhbGlzdDwvYT4gPC90ZD4NCiA8dGQ+Mjc5MzEgPC90ZD4NCiA8dGQ+MSA8L3RkPg0KIDx0ZD5SZWd1bGFyIDwvdGQ+DQogPHRkPk1pc3Npb24gU3VwcG9ydCBBbGxpYW5jZSwgTExDIDwvdGQ+DQogPHRkPjA2LzAxLzIwMTYgPC90ZD4NCiA8dGQ+MDYvMDgvMjAxNiA8L3RkPg0KPC90cj4NCjx0ciBzdHlsZT0idGV4dC1hbGlnbjpjZW50ZXIiPg0KIDx0ZD5DcmFmdHMgPC90ZD4NCiA8dGQ+PGEgaHJlZj0nSm9iRGV0YWlsLmFzcHg/QlU9TVNDJmFtcDtJRD0yNzk3NSZhbXA7UFQ9RSc+RWxlY3RyaWNpYW4tSnJuPC9hPiA8L3RkPg0KIDx0ZD4yNzk3NSA8L3RkPg0KIDx0ZD4xIDwvdGQ+DQogPHRkPlJlZ3VsYXIgPC90ZD4NCiA8dGQ+TWlzc2lvbiBTdXBwb3J0IEFsbGlhbmNlLCBMTEMgPC90ZD4NCiA8dGQ+MDYvMDEvMjAxNiA8L3RkPg0KIDx0ZD4wNi8wOC8yMDE2IDwvdGQ+DQo8L3RyPg0KPHRyIHN0eWxlPSJ0ZXh0LWFsaWduOmNlbnRlciI+DQogPHRkPkNyYWZ0cyA8L3RkPg0KIDx0ZD48YSBocmVmPSdKb2JEZXRhaWwuYXNweD9CVT1NU0MmYW1wO0lEPTI3OTIyJmFtcDtQVD1FJz5GaXJlZmlnaHRlci1BcmVhLVBhcmFtZWRpYzwvYT4gPC90ZD4NCiA8dGQ+Mjc5MjIgPC90ZD4NCiA8dGQ+MSA8L3RkPg0KIDx0ZD5SZWd1bGFyIDwvdGQ+DQogPHRkPk1pc3Npb24gU3VwcG9ydCBBbGxpYW5jZSwgTExDIDwvdGQ+DQogPHRkPjA1LzMxLzIwMTYgPC90ZD4NCiA8dGQ+MDYvMzAvMjAxNiA8L3RkPg0KPC90cj4NCjx0ciBzdHlsZT0idGV4dC1hbGlnbjpjZW50ZXIiPg0KIDx0ZD5DcmFmdHMgPC90ZD4NCiA8dGQ+PGEgaHJlZj0nSm9iRGV0YWlsLmFzcHg/QlU9TVNDJmFtcDtJRD0yODA4MiZhbXA7UFQ9RSc+Sm91cm5leW1hbiBMaW5lbWFuPC9hPiA8L3RkPg0KIDx0ZD4yODA4MiA8L3RkPg0KIDx0ZD4yIDwvdGQ+DQogPHRkPlJlZ3VsYXIgPC90ZD4NCiA8dGQ+TWlzc2lvbiBTdXBwb3J0IEFsbGlhbmNlLCBMTEMgPC90ZD4NCiA8dGQ+MDYvMDEvMjAxNiA8L3RkPg0KIDx0ZD4wNi8xMi8yMDE2IDwvdGQ+DQo8L3RyPg0KPHRyIHN0eWxlPSJ0ZXh0LWFsaWduOmNlbnRlciI+DQogPHRkPkNyYWZ0cyA8L3RkPg0KIDx0ZD48YSBocmVmPSdKb2JEZXRhaWwuYXNweD9CVT1NU0MmYW1wO0lEPTI4MDQ2JmFtcDtQVD1FJz5NaWxsd3JpZ2h0LUpybjwvYT4gPC90ZD4NCiA8dGQ+MjgwNDYgPC90ZD4NCiA8dGQ+MiA8L3RkPg0KIDx0ZD5UZW1wb3JhcnkgPC90ZD4NCiA8dGQ+TWlzc2lvbiBTdXBwb3J0IEFsbGlhbmNlLCBMTEMgPC90ZD4NCiA8dGQ+MDUvMjYvMjAxNiA8L3RkPg0KIDx0ZD4wNi8wMi8yMDE2IDwvdGQ+DQo8L3RyPg0KPHRyIHN0eWxlPSJ0ZXh0LWFsaWduOmNlbnRlciI+DQogPHRkPk1hbmFnZW1lbnQgPC90ZD4NCiA8dGQ+PGEgaHJlZj0nSm9iRGV0YWlsLmFzcHg/QlU9TVNDJmFtcDtJRD0yNzg5NyZhbXA7UFQ9RSc+QWN0aXZpdHkgTWFuYWdlcjwvYT4gPC90ZD4NCiA8dGQ+Mjc4OTcgPC90ZD4NCiA8dGQ+MSA8L3RkPg0KIDx0ZD5SZWd1bGFyIDwvdGQ+DQogPHRkPk1pc3Npb24gU3VwcG9ydCBBbGxpYW5jZSwgTExDIDwvdGQ+DQogPHRkPjA1LzE4LzIwMTYgPC90ZD4NCiA8dGQ+MDYvMDEvMjAxNiA8L3RkPg0KPC90cj4NCjx0ciBzdHlsZT0idGV4dC1hbGlnbjpjZW50ZXIiPg0KIDx0ZD5NYW5hZ2VtZW50IDwvdGQ+DQogPHRkPjxhIGhyZWY9J0pvYkRldGFpbC5hc3B4P0JVPU1TQyZhbXA7SUQ9Mjc3MzYmYW1wO1BUPUUnPlN1cGVydmlzb3IgT3BlcmF0aW9uczwvYT4gPC90ZD4NCiA8dGQ+Mjc3MzYgPC90ZD4NCiA8dGQ+MSA8L3RkPg0KIDx0ZD5SZWd1bGFyIDwvdGQ+DQogPHRkPk1pc3Npb24gU3VwcG9ydCBBbGxpYW5jZSwgTExDIDwvdGQ+DQogPHRkPjA1LzMxLzIwMTYgPC90ZD4NCiA8dGQ+MDYvMDUvMjAxNiA8L3RkPg0KPC90cj4NCjwvdGFibGU+DQpkAgsPD2QWAh4Hb25jbGljawW6AWphdmFzY3JpcHQ6IHdpbmRvdy5vcGVuKCdKb2JMaXN0UHJpbnQuYXNweD9QVD1FJywnSm9iTGlzdCcsICd0b29sYmFyPW5vLGxvY2F0aW9uPW5vLGRpcmVjdG9yaWVzPW5vLHN0YXR1cz1ubyxtZW51YmFyPW5vLHNjcm9sbGJhcnM9eWVzLHJlc2l6YWJsZT15ZXMsd2lkdGg9NzAwLGhlaWdodD01MDAnKTsgcmV0dXJuIGZhbHNlO2QCCw8PFgIfAmVkZGQNCr08TyKgG0WGKpMImxTjv5HAiy98NcrhdGUC45rV6Q==" />
+
+<!--[if lt IE 9]> <script> document.createElement('nav'); </script><![endif]-->
+<script src="/hrisjp/ScriptResource.axd?d=rXZHV8lykpi7tNlwUgnK789Zuf2jtB5CGL3oJCloY7OkkDTyC76rh_N3E9-1DaVyCk-FevnKYNbIxg_S3hywO5_7riaz9X1cppbnosUMhNZw8YVjshyC5jPO8EsWfWrDh8iqh9WjVQ0AsVzwNft_fg2&amp;t=fffffffffd88dfc4" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="88D69847" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWAgKDhae/CgKb05mMATVtD0H6JoMj6SBB380BrY0NCbDpoUwoou9oaPsiEBvy" />
+     
+    
+    
+     
+
+  <div id="wrapper">
+   <div id="header" class="clear">
+      
+    <div id="titleSection" style="width: 100%; text-align:center;">
+        <img id="ctl00_ctl00_Header_imgLogo" class="topLogo" src="Images/MSC/MSA_Job_Opprtunities_HEADER.jpg" alt="Mission Support Alliance" />
+    </div>
+    <div style="text-align:center">
+        <span style="font-weight: bold; font-size: 16pt; top: 5px; bottom: 5px;">Job Opportunities</span> 
+    </div>
+
+   </div>
+
+   <a id="touch-menu" class="mobile-menu" href="#"><i class="icon-reorder"></i>Menu</a>
+
+<div>
+    <br class="mobile-br2" />
+    
+    <nav>
+    <ul class="menu">
+        <li><a href="JobOpp.aspx?BU=MSC" title="Home">Home</a></li>
+        <li><a href="#" aria-haspopup="true" title="Job Listings">Job Listings        <img src="Images/small-down1.gif" height="10" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" alt="DropDown" />
+</a>
+            <ul class="sub-menu">
+                <li><a href="JobsList.aspx?BU=MSC&amp;PT=E">&nbsp;&nbsp;&nbsp;External Postings (12)</a></li>
+                <li><a href="JobsList.aspx?BU=MSC&amp;PT=I">&nbsp;&nbsp;&nbsp;Internal Postings (12)</a></li>
+                <li><a href="JobsList.aspx?BU=MSC&amp;PT=L">&nbsp;&nbsp;&nbsp;HAMTC LAMP only (1)</a></li>
+            </ul>
+        </li>
+        <li><a href="Profile.aspx?PT=X&amp;BU=MSC" title="Create/Update My Profile">My Profile
+        <img src="Images/small-down1.gif" height="10" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" alt="DropDown" />
+</a>
+            <ul class="sub-menu">
+                <li><a href="Profile.aspx?PT=X">&nbsp;&nbsp;&nbsp;Login/Register</a></li>
+            </ul>
+        </li>
+        <li><a href="http://msa.hanford.gov" Target = "_blank" title="About the Mission Support Alliance">About Us</a></li>
+        <li><a href="JPCommunity.aspx?BU=MSC">Community</a></li>
+        <li><a href="EEO.aspx?BU=MSC" title="Equal Employment Opportunity Statement">EEO</a></li>
+        <li><a href="Quit.aspx">Log Out</a></li>
+    </ul>
+</nav>
+
+
+</div>
+   
+    <div class="dividerHorizontal">&nbsp;</div>
+
+  <div id="marginSet" style="padding-right: 1em; padding-left: 1em">
+   
+   <div style="width: 100%;">
+      <span id="ctl00_ctl00_lblUserMsg1" class="UserMessage"></span>
+      <br />
+          
+      
+    
+   <div style="margin-left: 1em; margin-right: 1em">
+	<p>
+	    <span id="ctl00_ctl00_MasterMain_Main_lblMessage" class="UserMessage"></span>
+	</p>
+   	<p>
+		<span id="ctl00_ctl00_MasterMain_Main_lblTitle"><b>External Job Opportunities</b></span>
+        <br />
+		<span id="ctl00_ctl00_MasterMain_Main_lblTitle2"></span>
+	</p>
+	<p>
+		<span id="ctl00_ctl00_MasterMain_Main_lblInstructions">Click on a Position Title for more information about the position.</span>
+	</p>
+		
+<table style="width:100%; max-width:1200px;" class="TFtable">
+<tr><th>Category</th><th>Position Title</th><th>Posting#</th><th>Openings</th><th>Reg/Temp</th><th>Company</th><th>Posted Date</th><th>Closes On</th></tr>
+<tr style="text-align:center">
+ <td>Administrative Support </td>
+ <td><a href='JobDetail.aspx?BU=MSC&amp;ID=27722&amp;PT=E'>Secretary</a> </td>
+ <td>27722 </td>
+ <td>1 </td>
+ <td>Regular </td>
+ <td>Mission Support Alliance, LLC </td>
+ <td>05/31/2016 </td>
+ <td>06/03/2016 </td>
+</tr>
+<tr style="text-align:center">
+ <td>Professional </td>
+ <td><a href='JobDetail.aspx?BU=MSC&amp;ID=27969&amp;PT=E'>Accountant</a> </td>
+ <td>27969 </td>
+ <td>1 </td>
+ <td>Regular </td>
+ <td>Mission Support Alliance, LLC </td>
+ <td>05/31/2016 </td>
+ <td>06/01/2016 </td>
+</tr>
+<tr style="text-align:center">
+ <td>Professional </td>
+ <td><a href='JobDetail.aspx?BU=MSC&amp;ID=27404&amp;PT=E'>Contract Admin</a> </td>
+ <td>27404 </td>
+ <td>1 </td>
+ <td>Regular </td>
+ <td>Mission Support Alliance, LLC </td>
+ <td>06/01/2016 </td>
+ <td>06/03/2016 </td>
+</tr>
+<tr style="text-align:center">
+ <td>Professional </td>
+ <td><a href='JobDetail.aspx?BU=MSC&amp;ID=27528&amp;PT=E'>Electrical Engineer</a> </td>
+ <td>27528 </td>
+ <td>1 </td>
+ <td>Regular </td>
+ <td>Mission Support Alliance, LLC </td>
+ <td>05/20/2016 </td>
+ <td>06/03/2016 </td>
+</tr>
+<tr style="text-align:center">
+ <td>Professional </td>
+ <td><a href='JobDetail.aspx?BU=MSC&amp;ID=28041&amp;PT=E'>Records Management Specialist</a> </td>
+ <td>28041 </td>
+ <td>1 </td>
+ <td>Regular </td>
+ <td>Mission Support Alliance, LLC </td>
+ <td>06/01/2016 </td>
+ <td>06/05/2016 </td>
+</tr>
+<tr style="text-align:center">
+ <td>Professional </td>
+ <td><a href='JobDetail.aspx?BU=MSC&amp;ID=27931&amp;PT=E'>Training Specialist</a> </td>
+ <td>27931 </td>
+ <td>1 </td>
+ <td>Regular </td>
+ <td>Mission Support Alliance, LLC </td>
+ <td>06/01/2016 </td>
+ <td>06/08/2016 </td>
+</tr>
+<tr style="text-align:center">
+ <td>Crafts </td>
+ <td><a href='JobDetail.aspx?BU=MSC&amp;ID=27975&amp;PT=E'>Electrician-Jrn</a> </td>
+ <td>27975 </td>
+ <td>1 </td>
+ <td>Regular </td>
+ <td>Mission Support Alliance, LLC </td>
+ <td>06/01/2016 </td>
+ <td>06/08/2016 </td>
+</tr>
+<tr style="text-align:center">
+ <td>Crafts </td>
+ <td><a href='JobDetail.aspx?BU=MSC&amp;ID=27922&amp;PT=E'>Firefighter-Area-Paramedic</a> </td>
+ <td>27922 </td>
+ <td>1 </td>
+ <td>Regular </td>
+ <td>Mission Support Alliance, LLC </td>
+ <td>05/31/2016 </td>
+ <td>06/30/2016 </td>
+</tr>
+<tr style="text-align:center">
+ <td>Crafts </td>
+ <td><a href='JobDetail.aspx?BU=MSC&amp;ID=28082&amp;PT=E'>Journeyman Lineman</a> </td>
+ <td>28082 </td>
+ <td>2 </td>
+ <td>Regular </td>
+ <td>Mission Support Alliance, LLC </td>
+ <td>06/01/2016 </td>
+ <td>06/12/2016 </td>
+</tr>
+<tr style="text-align:center">
+ <td>Crafts </td>
+ <td><a href='JobDetail.aspx?BU=MSC&amp;ID=28046&amp;PT=E'>Millwright-Jrn</a> </td>
+ <td>28046 </td>
+ <td>2 </td>
+ <td>Temporary </td>
+ <td>Mission Support Alliance, LLC </td>
+ <td>05/26/2016 </td>
+ <td>06/02/2016 </td>
+</tr>
+<tr style="text-align:center">
+ <td>Management </td>
+ <td><a href='JobDetail.aspx?BU=MSC&amp;ID=27897&amp;PT=E'>Activity Manager</a> </td>
+ <td>27897 </td>
+ <td>1 </td>
+ <td>Regular </td>
+ <td>Mission Support Alliance, LLC </td>
+ <td>05/18/2016 </td>
+ <td>06/01/2016 </td>
+</tr>
+<tr style="text-align:center">
+ <td>Management </td>
+ <td><a href='JobDetail.aspx?BU=MSC&amp;ID=27736&amp;PT=E'>Supervisor Operations</a> </td>
+ <td>27736 </td>
+ <td>1 </td>
+ <td>Regular </td>
+ <td>Mission Support Alliance, LLC </td>
+ <td>05/31/2016 </td>
+ <td>06/05/2016 </td>
+</tr>
+</table>
+
+	<p>
+		<input type="submit" name="ctl00$ctl00$MasterMain$Main$btnPrint" value="Print This Page" onclick="javascript: window.open(&#39;JobListPrint.aspx?PT=E&#39;,&#39;JobList&#39;, &#39;toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=700,height=500&#39;); return false;" id="ctl00_ctl00_MasterMain_Main_btnPrint" class="buttonActionContent" />
+	</p>
+</div>
+
+
+
+      <br />
+      <span id="ctl00_ctl00_lblUserMsg2" class="UserMessage"></span>
+  </div>
+  </div> 
+        
+  <div class="dividerHorizontal">&nbsp;</div>
+    
+  <div id="footer">
+    
+    <table style="width: 100%">
+	    <tr>
+		    <td style="text-align:center; width: 33%">
+		        <img id="ctl00_ctl00_Footer_Image1" src="Images/MSC/LM.png" alt="Lockheed Martin" />
+		    </td>				
+		    <td style="text-align:center; width: 33%">
+                <img id="ctl00_ctl00_Footer_Image3" src="Images/MSC/JE.png" alt="Jacobs Engineering" />
+		    </td>
+		    <td style="text-align:center; width: 33%">
+		        <img id="ctl00_ctl00_Footer_Image4" src="Images/MSC/Centerra.jpg" alt="Centerra" />
+		    </td>
+        </tr>
+	</table>				
+
+    <table style="width: 100%">
+        <tr>
+            <td style="font-size: small; color: #000033;">
+                <a href="http://www.hanford.gov/" target="_blank">Hanford Home Page</a>
+	  	        <br />
+	  	        <br />
+                <a href="http://www.hanford.gov/privacy/" target="_blank">Privacy and Security Notice</a>| 
+                
+                <a href="http://www.hanford.gov/Accessibility/" target="_blank">Accessibility</a>
+            </td>
+            <td>
+                <img id="ctl00_ctl00_Footer_Image2" src="Images/doelogo2.gif" alt="DOE logo" />
+            </td>
+            <td style="font-size: small; color: #000033;">
+   	            Questions or comments:
+       	        <a href="mailto:MSAResumes@rl.gov">MSA Human Resources</a>
+            </td>
+        </tr>
+    </table>
+
+  </div>
+
+ </div>  
+ </form>
+</body>
+</html>
